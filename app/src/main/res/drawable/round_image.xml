@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="4dp" android:height="4dp">
+        <shape android:shape="oval">
+            <solid android:color="#000000" /> <!-- Cor preta no contorno -->
+        </shape>
+    </item>
+    <item android:width="98dp" android:height="98dp" android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white" /> <!-- Cor do fundo branco -->
+        </shape>
+    </item>
+</layer-list>
